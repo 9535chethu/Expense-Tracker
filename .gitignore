@@ -1,0 +1,56 @@
+# Node modules
+node_modules/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+.pytest_cache/
+Application Data/
+Cookies/
+Documents/My Music/
+Documents/My Pictures/
+Documents/My Videos/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+.anaconda/
+.cache/
+.config/
+Downloads/
+.vscode/
+Videos/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build outputs
+build/
+
+# Ignore environment files
+.env
+
+# Ignore IDE specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore system files
+.DS_Store
+Thumbs.db
