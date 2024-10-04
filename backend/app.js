@@ -7,13 +7,15 @@ const app = express();
 require("dotenv").config();
 
 const PORT = process.env.PORT || 5000;
+const MONGO_URL = process.env.MONGO_URL;
+const NODE_ENV = process.env.NODE_ENV || "development";
 
 //middlewares
 app.use(express.json());
 app.use(
   cors({
     origin:
-      process.env.NODE_ENV === "production"
+      NODE_ENV === "production"
         ? "https://your-frontend-domain.netlify.app"
         : "http://localhost:3000",
   })
